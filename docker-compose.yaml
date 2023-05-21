@@ -18,7 +18,7 @@ services:
 
     # our environment variable
     environment:
-      MONGO_INITDB_ROOT_USERNAME: "anas"
+      MONGO_INITDB_ROOT_USERNAME: "bachhv"
       MONGO_INITDB_ROOT_PASSWORD: "12345"
 
   # name is optional for our backend
