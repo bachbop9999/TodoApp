@@ -49,13 +49,13 @@ app.post("/task", async (req, res) => {
 mongoose.connect(
   "mongodb://host.docker.internal:27017/task-management",
   {
-    auth: {
-      username: "bachhv",
-      password: "12345",
-    },
-    authSource: "admin",
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // auth: {
+    //   username: "bachhv",
+    //   password: "12345",
+    // },
+    // authSource: "admin",
+    useNewUrlParser: true
+    // useUnifiedTopology: true,
   },
   (err) => {
     if (err) {
